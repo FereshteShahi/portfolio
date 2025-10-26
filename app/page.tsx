@@ -77,7 +77,7 @@ export default function Home() {
     setMobileMenuOpen(false)
   }
 
-  return (
+  return ( 
     <div className="min-h-screen flex flex-col dark">
       {/* Header */}
       <header className="sticky top-0 z-50 backdrop-blur-md bg-background/80 border-b border-border">
@@ -327,26 +327,6 @@ export default function Home() {
                 Check out my portfolio on Behance to see my latest projects and designs.
               </p>
 
-    <div className="flex flex-col md:flex-row justify-center items-center gap-6 p-4">
-      <iframe
-        src="https://duygu-froehlich.de"
-        width="400"
-        height="400"
-        title="Meine Live-Webseite 1"
-        loading="lazy"
-        className="rounded-2xl shadow-md border border-gray-200"
-      ></iframe>
-
-      <iframe
-        src="https://kunst-artlenn.com"
-        width="400"
-        height="400"
-        title="Meine Live-Webseite 2"
-        loading="lazy"
-        className="rounded-2xl shadow-md border border-gray-200"
-      ></iframe>
-    </div>
-  );
 
 
               <div className="gradient-border p-8 bg-card flex flex-col items-center">
