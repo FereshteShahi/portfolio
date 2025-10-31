@@ -113,7 +113,7 @@ export default function Home() {
               Kontakt
             </button>
             <Button asChild size="sm">
-              <a href="/resume.pdf" download>
+              <a href="/CV_Fereshte-Shahi.pdf" download>
                 <Download className="mr-2 h-4 w-4" />
                 Lebenslauf
               </a>
@@ -307,7 +307,7 @@ export default function Home() {
                 
                 <div className="flex justify-center pt-6">
                   <Button asChild>
-                    <a href="/resume.pdf" download>
+                    <a href="/CV_Fereshte-Shahi.pdf" download>
                       <Download className="mr-2 h-4 w-4" />
                       Download Full Resume
                     </a>
@@ -326,9 +326,6 @@ export default function Home() {
               <p className="text-lg text-muted-foreground mb-12">
                 Check out my portfolio on Behance to see my latest projects and designs.
               </p>
-
-
-
               <div className="gradient-border p-8 bg-card flex flex-col items-center">
                 <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-6">
                   <ExternalLink className="h-8 w-8 text-primary" />
