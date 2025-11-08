@@ -348,7 +348,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="mb-3 px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/80 transition-colors"
               >
-                Zur Webseite
+                Webseite
               </a>
               <a
                 href="https://github.com/FereshteShahi/psychologin-froehlich"
@@ -356,7 +356,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="px-4 py-2 bg-secondary text-white rounded-lg hover:bg-secondary/80 transition-colors"
               >
-                Zur GitHub Repository
+                GitHub Repository
               </a>
             </div>
           </div>
@@ -386,7 +386,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="mb-3 px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/80 transition-colors"
               >
-                Zur Webseite
+                Webseite
               </a>
               <a
                 href="https://github.com/FereshteShahi/Kunstprojekt-Lennart-Erschler"
@@ -394,7 +394,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="px-4 py-2 bg-secondary text-white rounded-lg hover:bg-secondary/80 transition-colors"
               >
-                Zur GitHub Repository
+                GitHub Repository
               </a>
             </div>
           </div>
@@ -424,7 +424,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="px-4 py-2 bg-secondary text-white rounded-lg hover:bg-secondary/80 transition-colors"
               >
-                Zur GitHub Repository
+              GitHub Repository
               </a>
             </div>
           </div>
@@ -455,7 +455,7 @@ export default function Home() {
             className="flex items-center"
           >
             <ExternalLink className="mr-2 h-5 w-5" />
-            Zum GitHub Profil
+          GitHub Profil
           </a>
         </Button>
       </div>
