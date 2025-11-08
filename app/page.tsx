@@ -479,12 +479,7 @@ export default function Home() {
                         fereshteshahi@outlook.com
                       </a>
                     </div>
-                    <div className="flex items-center">
-                      <Phone className="h-5 w-5 mr-3 text-primary" />
-                      <a href="tel:+923167469390" className="text-muted-foreground hover:text-primary">
-                        +49 176 31279227
-                      </a>
-                    </div>
+              
                     <div className="flex items-center">
                       <MapPin className="h-5 w-5 mr-3 text-primary" />
                       <span className="text-muted-foreground">München, Deutschland</span>
