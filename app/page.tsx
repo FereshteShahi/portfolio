@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { useToast } from "@/hooks/use-toast"
-import { Download, Send, Linkedin, ExternalLink, Mail, Phone, MapPin, Menu, X, Github} from "lucide-react"
+import { Download, Send, Linkedin, ExternalLink, Mail, Phone, MapPin, Menu, X, Github } from "lucide-react"
 
 export default function Home() {
   const { toast } = useToast()
@@ -77,7 +77,7 @@ export default function Home() {
     setMobileMenuOpen(false)
   }
 
-  return ( 
+  return (
     <div className="min-h-screen flex flex-col dark">
       {/* Header */}
       <header className="sticky top-0 z-50 backdrop-blur-md bg-background/80 border-b border-border">
@@ -151,7 +151,7 @@ export default function Home() {
         )}
       </header>
 
-      <main className="flex-1"> 
+      <main className="flex-1">
         {/* Hero Section */}
         <section id="home" className="py-20 md:py-32">
           <div className="container mx-auto px-4">
@@ -162,8 +162,8 @@ export default function Home() {
                 </h1>
                 <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground">Front-End-Developer</h2>
                 <p className="text-lg text-muted-foreground max-w-xl">
-                 Leidenschaftlich daran interessiert, innovative Weblösungen zu entwickeln, die Funktionalität und Design verbinden.
-                 Stets motiviert, neue Technologien zu erlernen und kreative Ideen in moderne, responsive Benutzeroberflächen umzusetzen.
+                  Leidenschaftlich daran interessiert, innovative Weblösungen zu entwickeln, die Funktionalität und Design verbinden.
+                  Stets motiviert, neue Technologien zu erlernen und kreative Ideen in moderne, responsive Benutzeroberflächen umzusetzen.
                 </p>
                 <div className="flex flex-wrap gap-4 pt-4">
                   <Button onClick={() => scrollToSection("about")}>Erfahre mehr über mich</Button>
@@ -174,7 +174,7 @@ export default function Home() {
               </div>
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
                 <Image
-                  src="/CV-Bild_Fereshte-Shahi.jpg" 
+                  src="/CV-Bild_Fereshte-Shahi.jpg"
                   alt="FERESHTE SHAHI"
                   fill
                   className="object-cover"
@@ -195,13 +195,13 @@ export default function Home() {
                 <p className="text-lg">
                   Engagierte Nachwuchs-Webentwicklerin
                   mit einem Studium in Software Engineering und
-                   Weiterbildung im Full-Stack Development
-                   an der ReDI School. Praktische Erfahrung
-                    mit HTML, CSS, JavaScript, React, Next.js,
-                     Tailwind, Node.js und AWS Amplify.
+                  Weiterbildung im Full-Stack Development
+                  an der ReDI School. Praktische Erfahrung
+                  mit HTML, CSS, JavaScript, React, Next.js,
+                  Tailwind, Node.js und AWS Amplify.
                   Praktikantin bei Witjaw mit Schwerpunkt
                   auf Frontend-Entwicklung und
-                   nutzerzentriertem Design.
+                  nutzerzentriertem Design.
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -228,7 +228,7 @@ export default function Home() {
                         </ul>
                       </div>
 
-                        <div>
+                      <div>
                         <h4 className="font-medium">BÜROKRAFT (AUSHILFE)</h4>
                         <p className="text-sm text-muted-foreground"> Taxiunternehmen, München | 07/2023 - 05/2025</p>
                         <ul className="list-disc list-inside text-sm mt-2 text-muted-foreground">
@@ -258,20 +258,20 @@ export default function Home() {
                         <h4 className="font-medium">  Integrations-und Deutschkurse, Volkshochschule (B1-C1 zertifiziert)</h4>
                         <p className="text-sm text-muted-foreground">BS (GIS) & Remote Sensing</p>
                         <p className="text-xs text-muted-foreground">
-                         Git, GitHub, VS Code, Kommandozeile, SQL, Docker, CI/CD, Pipeline, Unit Testing(Jest), Scrum, Jira
+                          Git, GitHub, VS Code, Kommandozeile, SQL, Docker, CI/CD, Pipeline, Unit Testing(Jest), Scrum, Jira
                         </p>
                       </div>
 
-                        <div>
+                      <div>
                         <h4 className="font-medium">Design & UX/UI</h4>
                         <p className="text-sm text-muted-foreground">BS (GIS) & Remote Sensing</p>
                         <p className="text-xs text-muted-foreground"> Responsive Design, Webdesign-Grundlagen, Figma
-                         </p>
+                        </p>
                       </div>
                     </div>
                   </div>
 
-                     <div className="gradient-border m-auto p-6 bg-card">
+                  <div className="gradient-border m-auto p-6 bg-card">
                     <h3 className="text-xl font-semibold mb-4">Kenntnisse</h3>
                     <div className="space-y-4">
                       <div>
@@ -290,21 +290,21 @@ export default function Home() {
                         <h4 className="font-medium"> DevOps & Tools</h4>
                         <p className="text-sm text-muted-foreground">BS (GIS) & Remote Sensing</p>
                         <p className="text-xs text-muted-foreground">
-                         Git, GitHub, VS Code, Kommandozeile, SQL, Docker, CI/CD, Pipeline, Unit Testing(Jest), Scrum, Jira
+                          Git, GitHub, VS Code, Kommandozeile, SQL, Docker, CI/CD, Pipeline, Unit Testing(Jest), Scrum, Jira
                         </p>
                       </div>
 
-                        <div>
+                      <div>
                         <h4 className="font-medium">Design & UX/UI</h4>
                         <p className="text-sm text-muted-foreground">BS (GIS) & Remote Sensing</p>
                         <p className="text-xs text-muted-foreground"> Responsive Design, Webdesign-Grundlagen, Figma
-                         </p>
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                
+
                 <div className="flex justify-center pt-6">
                   <Button asChild>
                     <a href="/CV_Fereshte-Shahi.pdf" download>
@@ -319,57 +319,151 @@ export default function Home() {
         </section>
 
         {/* Work Section */}
-        <section id="work" className="py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-4">My Work</h2>
-              <p className="text-lg text-muted-foreground mb-12">
-                Check out my portfolio on Behance to see my latest projects and designs.
-              </p>
-              <div className="gradient-border p-8 bg-card flex flex-col items-center">
-                <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-6">
-                  <ExternalLink className="h-8 w-8 text-primary" />
-                </div>
-                <h3 className="text-2xl font-semibold mb-4">View My Portfolio</h3>
-                <p className="text-muted-foreground mb-8 max-w-md">
-                  Explore my UI/UX design projects, including mobile apps, websites, and design systems.
-                </p>
-                <Button asChild size="lg">
-                  <a
-                    href="https://www.behance.net/shuaibkarim"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center"
-                  >
-                    <ExternalLink className="mr-2 h-5 w-5" />
-                    Visit My Behance Profile
-                  </a>
-                </Button>
-              </div>
+<section id="work" className="py-20">
+  <div className="container mx-auto px-4">
+    <div className="max-w-5xl mx-auto text-center">
+      <h2 className="text-3xl font-bold mb-4">Projekte</h2>
+      <p className="text-lg text-muted-foreground mb-12">
+        Hier unten können Sie meine bisherigen Projekte sehen.
+      </p>
 
-              <div className="mt-12 grid md:grid-cols-3 gap-6">
-                <div className="p-6 rounded-lg bg-card border border-border">
-                  <h3 className="font-semibold mb-2">UI Design</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Creating visually appealing interfaces with a focus on aesthetics and brand consistency.
-                  </p>
-                </div>
-                <div className="p-6 rounded-lg bg-card border border-border">
-                  <h3 className="font-semibold mb-2">UX Research</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Conducting user research to understand needs and behaviors for informed design decisions.
-                  </p>
-                </div>
-                <div className="p-6 rounded-lg bg-card border border-border">
-                  <h3 className="font-semibold mb-2">Interaction Design</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Designing intuitive interactions that enhance the overall user experience.
-                  </p>
-                </div>
-              </div>
+      {/* --- Projekte Grid --- */}
+      <div className="grid md:grid-cols-3 gap-10">
+        {/* === Projekt 1: Duygu Fröhlich === */}
+        <div className="group relative p-6 rounded-2xl bg-card border border-border shadow-md hover:shadow-xl transition-all duration-500">
+          <div className="relative w-full h-80 md:h-96 overflow-hidden rounded-xl border-4 border-primary/20">
+            <Image
+              src="/duygu-froehlich.jpg"
+              alt="Webdesign-Projekt für Psychologin Duygu Fröhlich"
+              fill
+              className="object-cover transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm"
+              priority
+            />
+
+            {/* Overlay mit Buttons */}
+            <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-black/40 backdrop-blur-sm">
+              <a
+                href="https://www.duygu-froehlich.de"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-3 px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/80 transition-colors"
+              >
+                Zur Webseite
+              </a>
+              <a
+                href="https://github.com/FereshteShahi/psychologin-froehlich"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 bg-secondary text-white rounded-lg hover:bg-secondary/80 transition-colors"
+              >
+                Zur GitHub Repository
+              </a>
             </div>
           </div>
-        </section>
+          <p className="text-sm mt-10 text-muted-foreground text-center">
+               Eine Website, die Professionalität und Empathie verbindet.
+               Mehrsprachig, barrierefrei und mit klarem Fokus auf Nutzerfreundlichkeit.
+               Erstellt mit Next.js, TypeScript, Figma, Tailwind, GitHub und EmailJS.
+                      </p>
+        </div>
+
+        {/* === Projekt 2: Lennart Erschler === */}
+        <div className="group relative p-6 rounded-2xl bg-card border border-border shadow-md hover:shadow-xl transition-all duration-500">
+          <div className="relative w-full h-80 md:h-96 overflow-hidden rounded-xl border-4 border-primary/20">
+            <Image
+              src="/lennart-erschler.jpg"
+              alt="Künstler-Website Lennart Erschler – Contemporary Art Projekt"
+              fill
+              className="object-cover transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm"
+              priority
+            />
+
+            {/* Overlay mit Buttons */}
+            <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-black/40 backdrop-blur-sm">
+              <a
+                href="https://www.kunst-artlenn.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-3 px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/80 transition-colors"
+              >
+                Zur Webseite
+              </a>
+              <a
+                href="https://github.com/FereshteShahi/Kunstprojekt-Lennart-Erschler"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 bg-secondary text-white rounded-lg hover:bg-secondary/80 transition-colors"
+              >
+                Zur GitHub Repository
+              </a>
+            </div>
+          </div>
+          <p className="text-sm mt-10 text-muted-foreground text-center">
+             Eine moderne Online-Galerie zur Präsentation zeitgenössischer Kunstwerke.
+             Mit Fokus auf ein klares, responsives Design und eine intuitive Nutzererfahrung.
+             Erstellt mit React, CSS und Schwerpunkt auf responsive Webdesign.         
+              </p>
+        </div>
+
+        {/* === Projekt 3: Reservierungssystem === */}
+        <div className="group relative p-6 rounded-2xl bg-card border border-border shadow-md hover:shadow-xl transition-all duration-500">
+          <div className="relative w-full h-80 md:h-96 overflow-hidden rounded-xl border-4 border-primary/20">
+            <Image
+              src="/Reservations System.png"
+              alt="Online-Reservierungssystem – Interaktionsdesign Projekt"
+              fill
+              className="object-cover transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm"
+              priority
+            />
+
+            {/* Overlay mit Buttons */}
+            <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-black/40 backdrop-blur-sm">
+              <a
+                href="https://github.com/FereshteShahi/Booking-System-Backend"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 bg-secondary text-white rounded-lg hover:bg-secondary/80 transition-colors"
+              >
+                Zur GitHub Repository
+              </a>
+            </div>
+          </div>
+          <p className="text-sm mt-10 text-muted-foreground text-center">
+           Ein interaktives Web-Tool mit eigenem Backend, mehrsprachigem Aufbau und Fokus auf Sicherheit, Performance und Benutzerfreundlichkeit.
+           Erstellt mit Next.js, PostgreSQL, REST APIs, TypeScript, Figma, Tailwind, GitHub und EmailJS.      
+              </p>
+        </div>
+      </div>
+
+      {/* --- GitHub Section unten --- */}
+      <div className="gradient-border p-8 mt-20 bg-card flex flex-col items-center rounded-2xl shadow-md">
+        <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-6">
+          <ExternalLink className="h-8 w-8 text-primary" />
+        </div>
+        <h3 className="text-2xl font-semibold mb-4">
+          Meine Repositories auf GitHub ansehen
+        </h3>
+        <p className="text-muted-foreground mb-8 max-w-md text-center">
+          Entdecke auf meinem GitHub meine Projekte in UI/UX-Design und Webentwicklung – 
+          von kreativen Websites bis zu durchdachten Designsystemen.
+        </p>
+        <Button asChild size="lg">
+          <a
+            href="https://github.com/FereshteShahi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center"
+          >
+            <ExternalLink className="mr-2 h-5 w-5" />
+            Zum GitHub Profil
+          </a>
+        </Button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
         {/* Contact Section */}
         <section id="contact" className="py-20 bg-secondary/20">
@@ -429,81 +523,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="gradient-border p-6 bg-card">
-                  <h3 className="text-xl font-semibold mb-6">Schick mir ein Nachricht</h3>
-                  <form onSubmit={handleSubmit} className="space-y-4">
-                    <div>
-                      <label htmlFor="name" className="block text-sm font-medium mb-1">
-                        Name
-                      </label>
-                      <Input
-                        id="name"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                        placeholder="Your name"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="email" className="block text-sm font-medium mb-1">
-                        Email
-                      </label>
-                      <Input
-                        id="email"
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        placeholder="Your email"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="message" className="block text-sm font-medium mb-1">
-                        Message
-                      </label>
-                      <Textarea
-                        id="message"
-                        value={message}
-                        onChange={(e) => setMessage(e.target.value)}
-                        placeholder="Your message"
-                        rows={4}
-                        required
-                      />
-                    </div>
-                    <Button type="submit" className="w-full" disabled={isSubmitting}>
-                      {isSubmitting ? (
-                        <span className="flex items-center">
-                          <svg
-                            className="animate-spin -ml-1 mr-2 h-4 w-4 text-white"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                          >
-                            <circle
-                              className="opacity-25"
-                              cx="12"
-                              cy="12"
-                              r="10"
-                              stroke="currentColor"
-                              strokeWidth="4"
-                            ></circle>
-                            <path
-                              className="opacity-75"
-                              fill="currentColor"
-                              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                            ></path>
-                          </svg>
-                          Sending...
-                        </span>
-                      ) : (
-                        <span className="flex items-center">
-                          <Send className="mr-2 h-4 w-4" />
-                          Send Message
-                        </span>
-                      )}
-                    </Button>
-                  </form>
-                </div>
+
               </div>
             </div>
           </div>
