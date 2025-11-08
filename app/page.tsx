@@ -444,9 +444,7 @@ export default function Home() {
           Meine Repositories auf GitHub ansehen
         </h3>
         <p className="text-muted-foreground mb-8 max-w-md text-center">
-          Entdecke auf meinem GitHub meine Projekte in UI/UX-Design und Webentwicklung – 
-          von kreativen Websites bis zu durchdachten Designsystemen.
-        </p>
+          Entdecke auf meinem GitHub meine Projekte in UI/UX-Design und Webentwicklung        </p>
         <Button asChild size="lg">
           <a
             href="https://github.com/FereshteShahi"
