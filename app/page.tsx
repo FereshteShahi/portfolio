@@ -256,7 +256,6 @@ export default function Home() {
                       </div>
                       <div>
                         <h4 className="font-medium">  Integrations-und Deutschkurse, Volkshochschule (B1-C1 zertifiziert)</h4>
-                        <p className="text-sm text-muted-foreground">BS (GIS) & Remote Sensing</p>
                         <p className="text-xs text-muted-foreground">
                           Git, GitHub, VS Code, Kommandozeile, SQL, Docker, CI/CD, Pipeline, Unit Testing(Jest), Scrum, Jira
                         </p>
@@ -264,7 +263,6 @@ export default function Home() {
 
                       <div>
                         <h4 className="font-medium">Design & UX/UI</h4>
-                        <p className="text-sm text-muted-foreground">BS (GIS) & Remote Sensing</p>
                         <p className="text-xs text-muted-foreground"> Responsive Design, Webdesign-Grundlagen, Figma
                         </p>
                       </div>
@@ -288,7 +286,6 @@ export default function Home() {
                       </div>
                       <div>
                         <h4 className="font-medium"> DevOps & Tools</h4>
-                        <p className="text-sm text-muted-foreground">BS (GIS) & Remote Sensing</p>
                         <p className="text-xs text-muted-foreground">
                           Git, GitHub, VS Code, Kommandozeile, SQL, Docker, CI/CD, Pipeline, Unit Testing(Jest), Scrum, Jira
                         </p>
@@ -296,7 +293,6 @@ export default function Home() {
 
                       <div>
                         <h4 className="font-medium">Design & UX/UI</h4>
-                        <p className="text-sm text-muted-foreground">BS (GIS) & Remote Sensing</p>
                         <p className="text-xs text-muted-foreground"> Responsive Design, Webdesign-Grundlagen, Figma
                         </p>
                       </div>
@@ -361,9 +357,7 @@ export default function Home() {
             </div>
           </div>
           <p className="text-sm mt-10 text-muted-foreground text-center">
-               Eine Website, die Professionalität und Empathie verbindet.
-               Mehrsprachig, barrierefrei und mit klarem Fokus auf Nutzerfreundlichkeit.
-               Erstellt mit Next.js, TypeScript, Figma, Tailwind, GitHub und EmailJS.
+                Eine zweisprachige, responsive und nutzerfreundliche Website, erstellt mit Next.js, TypeScript, Figma, Tailwind, GitHub und EmailJS.
                       </p>
         </div>
 
@@ -399,9 +393,8 @@ export default function Home() {
             </div>
           </div>
           <p className="text-sm mt-10 text-muted-foreground text-center">
-             Eine moderne Online-Galerie zur Präsentation zeitgenössischer Kunstwerke.
-             Mit Fokus auf ein klares, responsives Design und eine intuitive Nutzererfahrung.
-             Erstellt mit React, CSS und Schwerpunkt auf responsive Webdesign.         
+             Eine responsive und benutzerfreundliche Website mit klarer Struktur und modernem Design.
+              Erstellt mit React, HTML und CSS.        
               </p>
         </div>
 
@@ -429,8 +422,8 @@ export default function Home() {
             </div>
           </div>
           <p className="text-sm mt-10 text-muted-foreground text-center">
-           Ein interaktives Web-Tool mit eigenem Backend, mehrsprachigem Aufbau und Fokus auf Sicherheit, Performance und Benutzerfreundlichkeit.
-           Erstellt mit Next.js, PostgreSQL, REST APIs, TypeScript, Figma, Tailwind, GitHub und EmailJS.      
+            Eine moderne Website mit Registrierung und Login, auf der man Termine erstellen, löschen und die Psychologin automatisch per E-Mail informieren kann.
+            Erstellt mit Next.js, PostgreSQL, REST APIs, TypeScript, Figma, Tailwind und EmailJS.     
               </p>
         </div>
       </div>
