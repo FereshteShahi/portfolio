@@ -160,7 +160,7 @@ export default function Home() {
                 <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                   Hallo, ich bin  <span className="gradient-text">Fereshte Shahi</span>
                 </h1>
-                <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground">Front-End-Developer</h2>
+                <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground">Front-End-Developer & UX/UI DESIGNER</h2>
                 <p className="text-lg text-muted-foreground max-w-xl">
                   Leidenschaftlich daran interessiert, innovative Weblösungen zu entwickeln, die Funktionalität und Design verbinden.
                   Stets motiviert, neue Technologien zu erlernen und kreative Ideen in moderne, responsive Benutzeroberflächen umzusetzen.
