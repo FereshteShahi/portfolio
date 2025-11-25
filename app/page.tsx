@@ -249,23 +249,32 @@ export default function Home() {
                         <p className="text-sm text-muted-foreground mt-1"> Weiterbildende und berufsbegleitende Maßnahme – Jobcoaching, Seit 09 / 2025 - heute                        </p>
                       </div>
                       <div>
-                        <h4 className="font-medium">Full-Stack Development Weiterbildung</h4>
+                        <h4 className="font-medium">Full-Stack Development Weiterbildung, München</h4>
                         <p className="text-sm text-muted-foreground mt-1">
-                          ReDi School of Digital Integration mit IHK-Zertifikate, Seit 09 / 2024 bis 08 / 2025
+                          ReDi School of Digital Integration mit IHK-Zertifikate
                         </p>
+                        <p className="text-sm text-muted-foreground mt-1">
+                       09/2024 - 08/2025          </p>
                       </div>
                       <div>
                         <h4 className="font-medium">  Integrations-und Deutschkurse, Volkshochschule (B1-C1 zertifiziert)</h4>
                         <p className="text-xs text-muted-foreground">
-                          Git, GitHub, VS Code, Kommandozeile, SQL, Docker, CI/CD, Pipeline, Unit Testing(Jest), Scrum, Jira
+                          01/2019 - 07/2024
+                        </p>
+                      </div>
+                      <div>
+                        <h4 className="font-medium">Elternzeit - Kinderbetreuung</h4>
+                        <p className="text-xs text-muted-foreground"> 01/2020 - 01/2022
+                        </p>
+                      </div>
+                      <div>
+                        <h4 className="font-medium">   Software Engineering Studium, Azad University, Iran (Anerkennungsprozess läuft)</h4>
+                        <p className="text-xs text-muted-foreground">
+                           12/2013 - 2/2015
                         </p>
                       </div>
 
-                      <div>
-                        <h4 className="font-medium">Design & UX/UI</h4>
-                        <p className="text-xs text-muted-foreground"> Responsive Design, Webdesign-Grundlagen, Figma
-                        </p>
-                      </div>
+
                     </div>
                   </div>
 
@@ -275,7 +284,7 @@ export default function Home() {
                       <div>
                         <h4 className="font-medium">Frontend</h4>
                         <p className="text-sm text-muted-foreground mt-1">
-                          HTML, CSS, JavaScript, TypeScript, React
+                          HTML, CSS, JavaScript, TypeScript, React, Responsive Design, User Interface Implementation
                         </p>
                       </div>
                       <div>
@@ -293,7 +302,7 @@ export default function Home() {
 
                       <div>
                         <h4 className="font-medium">Design & UX/UI</h4>
-                        <p className="text-xs text-muted-foreground"> Responsive Design, Webdesign-Grundlagen, Figma
+                        <p className="text-xs text-muted-foreground"> Responsive Design, Webdesign-Grundlagen, Figma, Prototyping
                         </p>
                       </div>
                     </div>
